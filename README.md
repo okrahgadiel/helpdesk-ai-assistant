@@ -1,6 +1,6 @@
 # IT Helpdesk AI Assistant
 
-![CI](https://github.com/okrahgadiel-star/helpdesk-ai-assistant/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/okrahgadiel/helpdesk-ai-assistant/actions/workflows/ci.yml/badge.svg)
 
 A **retrieval-augmented generation (RAG)** service desk assistant. It answers employee IT questions **only** from a curated knowledge base, cites its sources, redacts personal data before anything reaches a language model, and hands off to a human with an auto-triaged ticket when the knowledge base doesn't cover the question.
 
@@ -38,7 +38,7 @@ Measured on 20 held-out user-phrased questions, 3 out-of-scope questions, and 8 
 Python 3.9+, no third-party packages.
 
 ```bash
-git clone https://github.com/okrahgadiel-star/helpdesk-ai-assistant.git
+git clone https://github.com/okrahgadiel/helpdesk-ai-assistant.git
 cd helpdesk-ai-assistant
 
 python -m helpdesk ask "VPN says certificate not trusted"
