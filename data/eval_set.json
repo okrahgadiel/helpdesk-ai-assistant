@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {"q": "I'm locked out of my account, what do I do?", "doc": "password-reset-and-lockout"},
+    {"q": "how do I reset my password", "doc": "password-reset-and-lockout"},
+    {"q": "I got a new iPhone, how do I move my authenticator?", "doc": "mfa-new-phone"},
+    {"q": "I keep getting MFA prompts I didn't start", "doc": "mfa-new-phone"},
+    {"q": "VPN says certificate not trusted", "doc": "vpn-not-connecting"},
+    {"q": "connected to VPN but intranet sites don't load", "doc": "vpn-not-connecting"},
+    {"q": "printer says offline and my jobs are stuck", "doc": "printer-offline"},
+    {"q": "where do my follow-me print jobs go", "doc": "printer-offline"},
+    {"q": "outlook is not getting new email", "doc": "outlook-not-syncing"},
+    {"q": "my mailbox is full", "doc": "outlook-not-syncing"},
+    {"q": "wifi keeps disconnecting on my laptop", "doc": "wifi-dropping"},
+    {"q": "my computer is so sluggish", "doc": "slow-computer"},
+    {"q": "teams camera not working", "doc": "teams-audio-video"},
+    {"q": "people can't hear my mic in teams", "doc": "teams-audio-video"},
+    {"q": "how do I get access to a shared folder", "doc": "shared-drive-access"},
+    {"q": "I got a suspicious email asking me to log in", "doc": "report-phishing"},
+    {"q": "I clicked a scam link", "doc": "report-phishing"},
+    {"q": "windows is asking for a bitlocker recovery key", "doc": "bitlocker-recovery"},
+    {"q": "what happens on a new hire's first day", "doc": "new-hire-setup"},
+    {"q": "my laptop asks for a 48 digit key after a BIOS update", "doc": "bitlocker-recovery"}
+  ],
+  "out_of_scope": [
+    "what is the cafeteria menu today",
+    "how do I submit my expense report",
+    "when is the company holiday party"
+  ],
+  "triage": [
+    {"text": "can't sign in, my password stopped working", "category": "access", "priority": "P2"},
+    {"text": "the whole floor lost wifi", "category": "network", "priority": "P1"},
+    {"text": "monitor not turning on with the dock", "category": "hardware", "priority": "P4"},
+    {"text": "outlook not syncing since this morning", "category": "software", "priority": "P3"},
+    {"text": "I clicked a link and entered my password", "category": "security", "priority": "P1"},
+    {"text": "please give me access to the HR SharePoint", "category": "access", "priority": "P4"},
+    {"text": "VPN keeps disconnecting every hour", "category": "network", "priority": "P3"},
+    {"text": "teams microphone not working", "category": "software", "priority": "P4"}
+  ]
+}

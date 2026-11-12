@@ -1,0 +1,43 @@
+text,category
+I forgot my password and can't sign in,access
+My account is locked after too many attempts,access
+Need access to the finance shared drive,access
+Please add me to the marketing Teams site,access
+Password expired and SSPR is not working,access
+Got a new phone and need to set up the authenticator app,access
+New hire starting Monday needs an account and laptop,access
+Request read access to the Oracle reporting folder,access
+Lost my phone and can't approve MFA,access
+Can't log in to Workday,access
+VPN won't connect from home,network
+Wi-Fi keeps dropping in building B,network
+Internal sites won't load on VPN,network
+No internet on the whole third floor,network
+DNS errors when opening intranet,network
+Certificate error when connecting to VPN,network
+Ethernet port at my desk is dead,network
+Wireless is very slow in the conference room,network
+Printer on 2nd floor shows offline,hardware
+Laptop screen flickering,hardware
+Docking station not detecting monitors,hardware
+Keyboard keys stopped working,hardware
+Laptop battery drains in an hour,hardware
+Print jobs stuck in the queue,hardware
+BitLocker is asking for a recovery key,hardware
+Headset microphone not detected,hardware
+Outlook not receiving new emails,software
+Teams camera not working in meetings,software
+Excel crashes when opening large files,software
+Computer is really slow after update,software
+Need Visio installed,software
+Outlook keeps asking for password,software
+Teams audio cuts out during calls,software
+Mailbox full can't send email,software
+I clicked a link in a suspicious email,security
+Got a phishing email asking for gift cards,security
+Getting MFA prompts I didn't request,security
+I think my account was hacked,security
+Antivirus flagged a file on my laptop,security
+Someone emailed me asking for my password,security
+I'm locked out of my account and can't log in to email,access
+Locked out after password change,access
